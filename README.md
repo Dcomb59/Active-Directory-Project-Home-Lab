@@ -13,7 +13,6 @@ ___
     * 1 Windows Server 2022 machine (Active Directory Domain Controller)
     * 1 Ubuntu Server machine (Splunk SIEM)
     
-    ![homeLabVMs](https://github.com/Dcomb59/Active-Directory-Project-Home-Lab/blob/main/VMs.png)
 
 2) Create a network in VirtualBox, and add our virtual machines to that same network
 
@@ -59,6 +58,8 @@ ___
 
 ### 2) Create Virtual Machines
 
+![homeLabVMs](https://github.com/Dcomb59/Active-Directory-Project-Home-Lab/blob/main/VMs.png)
+
 <details>
 <summary>Download and install VirtualBox</summary>
 <br>
@@ -70,7 +71,8 @@ ___
 
 <details>
 <summary>Create the Windows 10 virtual machine in VirtualBox</summary>
-<br>
+<be>
+
 
   Download the Windows 10 ISO file
 
@@ -214,11 +216,15 @@ For each virtual machine:
 <summary>Create a NAT network in VirtualBox</summary>
 <br>
 
+
    1) open VirtualBox, click on "Tools", then click on "Network"
    2) click the "NAT Networks" tab, then click the "Create" button
    3) click on the newly created "NatNetwork" then change "Name" to whatever you like (optional)
    4) change the "IPv4 Prefix" to the prefix you defined in the network diagram you created
    5) leave "Enable DHCP" checked, and hit "Apply"
+
+      ![image](https://github.com/user-attachments/assets/ca7c0db1-8e69-43a6-b2aa-b97b777b617f)
+
 
 </details>
 
